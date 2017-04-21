@@ -1,0 +1,48 @@
+CrossWordActivity
+=================
+
+Creating a CrossWord
+--------------------
+
+You can create a crossword in two ways:
+
+1 - From the activity:
+Select "New Game" from the toolbar and enter the words you want to be part of the crossword in the area on the right using the spacebar to create voids.
+
+Write the clues in the area on the left, depending if your word is to be placed in the grid vertically or horizontally, with the following syntax:
+
+Box number of the first letter of the word - Definition
+
+An example:
+5 - An example definition
+
+Finally, select the "Save game" option and choose the path to save his departure. If no selection completion ".cwg", this will be added to the file name.
+
+2 - From a text editor (externally activity):
+With a text editor, create a file and save it with the extension ".cwg" in the path you want.
+
+You must respect the following syntax if you choose this option:
+You must create the three mandatory sections, regardless the order in which they are created: "Horizontals", "Verticals" and "Game".
+In the "Horizontals" and "Verticals" sections, you should write the grid number of the word, followed by a colon, and the definition of the word.
+In the "Game" section, you should write the numbers 1 to 10, followed by a colon, and these followed by the letters of each line of the puzzle, to represent a space, use the character "/".
+A more practical example of the syntax to use:
+
+[Horizontals]
+1: A sign
+2: Other sign
+
+[Verticals]
+1: The best sign
+4: Another sign
+
+[Game]
+1: T H I S / / / / / /
+2: I S / / / / / / / /
+3: A N / / / / / / / /
+4: E X A M P L E / / /
+5: O F / / / / / / / /
+6: C R O S S W O R D /
+7: / / / / / / / / / /
+8: T H E / / / / / / /
+9: B E S T / / / / / /
+10: C R O S S W O R D /

@@ -1,0 +1,6 @@
+[Activity]
+name = CrossWord
+activity_version = 1
+bundle_id = org.sugarlabs.CrossWord
+exec = sugar-activity crossword.CrossWordActivity
+icon = icon
